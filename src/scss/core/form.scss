@@ -1,0 +1,11 @@
+.input{
+	border: 1px solid $borderDefault;
+	padding: 8px 16px;
+	line-height: 22px;
+	&:focus{
+		box-shadow: 0 0 3px 1px rgba(0,188,212,.2);
+	}
+}
+.input-group{
+	margin-top: $gapSize;
+}

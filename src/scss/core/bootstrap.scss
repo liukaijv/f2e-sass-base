@@ -1,0 +1,30 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font: 14px/22px "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  line-height: 20px;
+  background: #e5e5e5;
+}
+
+.m-l-md {
+  margin-left: $gapSize;
+}
+
+.header {
+}
+
+.nav {
+}
+
+.container {
+}
+
+.footer {
+
+}
+
+@media (max-width: $breakPoint) {
+
+}

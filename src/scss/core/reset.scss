@@ -1,0 +1,81 @@
+html {
+	font-family:sans-serif;
+	font-size:100%;
+	line-height:1;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	box-sizing:border-box
+}
+*,:before,:after {
+	box-sizing:inherit
+}
+body,header,footer,main,section,div,h1,h2,h3,h4,h5,h6,p,span,a,blockquote,q,pre,code,ol,ul,li,form,label,input,textarea,button,table,tr,th,td,dl,dt,dd,hr {
+	margin:0;
+	padding:0;
+	border:0;
+	font:inherit;
+	font-size:100%;
+	line-height:inherit;
+	vertical-align:baseline;
+	background:0 0
+}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary {
+	display:block
+}
+ol,ul {
+	list-style:none
+}
+hr {
+	border-bottom:1px solid #000
+}
+img {
+	max-width:100%;
+	height:auto;
+	vertical-align:middle;
+	border-style:none
+}
+a,a:hover {
+	color:#000;
+	text-decoration:none
+}
+blockquote,q {
+	quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after {
+	content:'';
+	content:none
+}
+[type=color],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],textarea {
+	display:block;
+	width:100%;
+	max-width:100%;
+	border:1px solid #000;
+	border-radius:0;
+	-webkit-appearance:none;
+	-moz-appearance:none
+}
+::-webkit-input-placeholder {
+	color:#ccc
+}
+:-moz-placeholder {
+	color:#ccc
+}
+::-moz-placeholder {
+	color:#ccc;
+	opacity:1
+}
+:-ms-input-placeholder {
+	color:#ccc
+}
+[type=reset],[type=submit],[type=button],button {
+	border:1px solid #000;
+	border-radius:0;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	cursor:pointer
+}
+:focus {
+	outline:none
+}

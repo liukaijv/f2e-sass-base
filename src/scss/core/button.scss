@@ -1,0 +1,17 @@
+.btn{
+	display: inline-block;
+	padding: 8px 20px;
+	line-height: 22px;
+	border:1px solid $borderDefault;
+	transition: all .3s;
+}
+
+.btn-primary{
+	color:#fff;
+	background:$colorPrimary;
+	border:1px solid $colorPrimary;
+	&:hover{
+		color: #fff;
+		background: darken($colorPrimary,3%);
+	}
+}
